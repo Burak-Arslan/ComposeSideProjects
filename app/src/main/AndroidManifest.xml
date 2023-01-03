@@ -13,15 +13,24 @@
         android:theme="@style/Theme.ComposeSideProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".BoxActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_box"
             android:theme="@style/Theme.ComposeSideProject">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeSideProject">
 
             <meta-data
                 android:name="android.app.lib_name"
